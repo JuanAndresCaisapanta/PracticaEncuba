@@ -19,7 +19,7 @@ public class ModelUtil {
 
 	public static boolean verificarFechaNull(String fecha) {
 		if (fecha == null)
-			return true;
+			return true ;
 		return false;
 	}
 
