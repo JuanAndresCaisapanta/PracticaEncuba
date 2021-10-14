@@ -14,7 +14,7 @@ public class PracspringbootPersona implements Serializable{
 	private String apellidos;
 
 	private String nombres;
-	@Column(name = "correo_electronico")
+
 	private String correoElectronico;
 
 	private String provincia;
@@ -22,8 +22,7 @@ public class PracspringbootPersona implements Serializable{
 	private String canton;
 
 	private String direcion;
-//	@Temporal(TemporalType.DATE)
-	@Column(name = "fecha_nacimiento")
+
 	private String fechaNacimiento;
 
 	private String telefono;
